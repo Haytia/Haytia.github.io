@@ -15,6 +15,29 @@
 body {
     /*background-color: rgb(0, 3, 14);*/
     background-color: black;
+    color: white;
+}
+
+/*#poster {
+    height: 800px;
+}*/
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;   
+}
+
+#card {
+    border-radius: 20px;
+    transition: 0.2s;
+}
+#card:hover {
+    transform: scale(1.1);
 }
 
 footer {
@@ -62,12 +85,18 @@ header {
     width: 100px;
 }
 
-#link {
+.transform {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     color: white;
     transition: 0.2s;
     
 }
-#link:hover {
+.transform:hover {
     transform: scale(1.1);
 } 
 
